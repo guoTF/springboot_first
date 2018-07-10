@@ -4,4 +4,17 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <filter>
+  	<filter-name>TimeFilter</filter-name>
+  	<display-name>TimeFilter</display-name>
+  	<description></description>
+  	<filter-class>com.seda.springboot.TimeFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>TimeFilter</filter-name>
+  	<url-pattern>/TimeFilter</url-pattern>
+  </filter-mapping>
+  <listener>
+  	<listener-class>com.seda.springboot.ListenerTest</listener-class>
+  </listener>
 </web-app>
