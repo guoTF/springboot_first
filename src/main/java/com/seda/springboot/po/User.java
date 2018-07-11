@@ -12,7 +12,7 @@ public class User {
     
     private String password;
     
-    @JSONField(format="yyyy-MM-dd")
+//    @JSONField(format="yyyy-MM-dd")
     private Date birthday;
 
 	public Integer getId() {
